@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script src="https://kit.fontawesome.com/c296bd0381.js" crossorigin="anonymous"></script>
+    <title>B2W12O1 - Responsive website</title>
+    <link rel="stylesheet" href="Responsive.css">
+    <link href="https://fonts.googleapis.com/css?family=Archivo&display=swap" rel="stylesheet">
+<!-- Razvan 2019
+     Da Vinci Colage,Leerpark //-->
+</head>
+<body>
+        
+<nav>
+    <div id="computerNav">
+        <a  class="computerIcons" id="phoneNumber"><i class="fas fa-phone"></i> (088) 603 015 0 </a>
+        <a class="computerIcons" id="whatsappNumber"><i class="fab fa-whatsapp"></i> (06) 470 544 24</a>
+        <a class="computerIcons" id="times"><i class="far fa-clock"></i> Ma - Zo: 8:00 - 22:00</a>
+        <a class="computerIcons" id=""><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+        <a class="computerIcons" id=""><i class="fab fa-facebook-square"></i> <i class="fab fa-instagram"></i> <i class="fab fa-twitter-square"></i></a>
+
+        
+
+      </div>
+        <div class="dropdown">
+                <i class="fas fa-bars" id="bigMenu" class="dropbutton" onclick="bigMenu()"></i>
+                <div class="dropdown-content" id="bigcontent">
+                  <a>Agenda</a>
+                  <a>Examen</a>
+                  <a>Lessen</a>
+                </div>
+              </div> 
+
+</nav>
+<br>
+<br>
+<br>
+
+<header>
+    <div class="dropdownS">
+            <i class="fas fa-bars" id="smallMenu" class="dropbuttonS" onclick="smallMenu()"></i>
+            <div class="dropdown-contentS" id="smallcontent">
+              <a>Agenda</a>
+              <a>Examen</a>
+              <a>Lessen</a>
+            </div>
+          </div> 
+
+    <img src="images/images.png" alt="logo" id="logo">
+
+    <div id="computerMenu">
+        <div id="computerDropdown1">
+            <a class="computerdropbutton1">AUTORIJBEWIJS <i class="fas fa-caret-down"></i></a>
+            <div class="computerDropdown-content1">
+              <a href="">Lessen</a>
+              <a href="">Agenda</a>
+              <a href="">Examen</a>
+            </div>
+          </div>
+          
+          <div id="computerDropdown2">
+              <a class="computerdropbutton2">MOTORRIJBEWIJS <i class="fas fa-caret-down"></i></a>
+              <div class="computerDropdown-content2">
+                <a href="">Lessen</a>
+                <a href="">Agenda</a>
+                <a href="">Examen</a>
+              </div>
+            </div> 
+      <a href="">THEORIE LES</a>
+      <a href="">HERHALINGS CURSUS</a>
+      <a href="">CONTACT</a>
+    </div>
+</header>
+
+<section id="sliders">
+<div class="slideshow-container">
+    <div class="mySlides fade">
+      <img src="images/slider1.jpg"  >
+      <div class="text">
+        <h1 id="title1">Een rijschool</h1>
+        <a id="caption1">Die meer dan alleen een rijschool is!</a>
+      </div>
+    </div>
+  
+    <div class="mySlides fade">
+      <img src="images/slider2.jpg"  >
+      <div class="text">
+        <h1 id="title2">Haal hier je examen</h1>
+        <a id="caption2">binnen de kortste keren</a>
+      </div>
+    </div>
+  
+    <div class="mySlides fade">
+      <img src="images/slider3.jpg"  >
+      <div class="text">
+        <h1 id="title3">Je bent bij het goede adres</h1>
+        <a id="caption3">Waneer het gaat om vertrouwen!</a>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div id="dots" style="text-align:center">
+    <span class="dot" id="dot1" onclick="currentSlide(3)"></span> 
+    <span class="dot" id="dot2" onclick="currentSlide(1)"></span>
+    <span class="dot" id="dot3" onclick="currentSlide(2)"></span>
+  </div> 
+    
+</section>
+
+
+<main>
+  <div class="mainDiv">
+    <h1><i class="fas fa-car-side" id="car"></i> PROEF LES</h1>
+    <p>Weet u het nog niet zeker maar wilt u het toch even proberen bij flexi. Dat kan, want met een vrijblijvende intakeles zit jij nergens aan vast.
+         Jij voelt meteen of er een klik is tussen jou en de rij-instructeur. Is er geen klik, dan zijn er nog andere FLEXi rij-instructeur.
+          Ook bij andere rij-instructeur geldt de vrijblijvende intake les! Wel mooi zo.</p>
+          <button>GRATIS proefles</button></div>
+  
+          
+    <div class="mainDiv">
+    <h1><i clrij-instructeursass="fas fa-map" id="map"></i> LOCATIES</h1>
+    <p>Onze  zijn verspreid over wel bijna heel Nederland. Er is dus bijna altijd wel een rij-instructeur bij jou in de beurt.
+       Is er bij jou nog geen FLEXi rijschool. Bel dan even met ons. Wij kijken dan samen of we toch geen FLEXi rij-instructeur voor jou kunnen regelen.
+        Klik <span id="link">hier</span> de locaties</p>
+        </div>
+        <br>
+
+
+        <div class="mainDiv" id="div3">
+    <h1><i class="fas fa-graduation-cap" id="cap"></i> RIJLESSEN</h1>
+    <p>De rijlessen van FLEXi worden op bassis van een instructiekaart voorbereid en uitgevoerd. Op de instructiekaart houdt de FLEXi rij-instructeur jouw vorderingen in de gaten.
+       Ook gebruiken de meeste FLEXi rij-instructeurs een dashcam, zodat de les of een deel van de les teruggekeken wordt.
+        Hier halen jij en jouw FLEXi rij-instructeur de pos en nav en bespreekt dit met jou.</p>
+        </div>
+</main>
+
+
+<section id="sectionYoutube">
+    <iframe id="youtube" 
+    src="https://www.youtube.com/embed/SDQMX5H16ec">
+    
+    </iframe>     
+</section>
+
+<script src="Responsive.js"></script>
+</body>
+</html>
